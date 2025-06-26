@@ -38,4 +38,4 @@ This document defines the **Entities and Relationships** used in the Airbnb data
 ---
 
 ## 3. Diagram
-![ER Diagram](./Airbnb project clone Database ER diagram (crow's foot).png)
+![ER Diagram](./ERD/Airbnb project clone Database ER diagram (crow's foot).png)
