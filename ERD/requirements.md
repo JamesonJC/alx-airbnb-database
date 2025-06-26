@@ -23,6 +23,18 @@ This document defines the **Entities and Relationships** used in the Airbnb data
 - Property to Booking (1:M)
 - Property to Review (1:M)
 - Booking to Payment (1:1)
+
+| Relationship                | Type       | Cardinality                            |
+|----------------------------|------------|----------------------------------------|
+| User → Property            | One-to-Many (1:M) | A host can own multiple properties      |
+| User → Booking             | One-to-Many (1:M) | A user can make many bookings           |
+| User → Review              | One-to-Many (1:M) | A user can leave multiple reviews       |
+| User → Message (sender)    | One-to-Many (1:M) | A user can send many messages           |
+| User → Message (recipient) | One-to-Many (1:M) | A user can receive many messages        |
+| Property → Booking         | One-to-Many (1:M) | A property can have multiple bookings   |
+| Property → Review          | One-to-Many (1:M) | A property can have many reviews        |
+| Booking → Payment          | One-to-One (1:1) | Each booking has one payment            |
+
 ---
 
 ## 3. Diagram
