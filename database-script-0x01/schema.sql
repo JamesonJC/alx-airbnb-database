@@ -120,3 +120,5 @@ CREATE TABLE Message (
 
 -- Already handled during table creation:
 -- email, property_id, booking_id
+-- PostgreSQL
+-- CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
