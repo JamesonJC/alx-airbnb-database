@@ -39,6 +39,3 @@ This document defines the **Entities and Relationships** used in the Airbnb data
 
 ## 3. Diagram
 ![ER Diagram](./airbnb-er-diagram.png)
-<div align='center'>
-    <img src='./ERD/airbnb-er-diagram.png'/>
-</div>
