@@ -6,6 +6,23 @@ This document defines the **Entities and Relationships** used in the Airbnb data
 
 ---
 
-## 1. Entities and Attributes
+## 1. Entities Identified
+- User
+- Property
+- Booking
+- Payment
+- Review
+- Message
+---
 
-### 🧑‍💼 User
+## 2. Relationships
+- User to Property (1:M)
+- User to Booking (1:M)
+- User to Review (1:M)
+- User to Message (1:M) [sender and recipient]
+- Property to Booking (1:M)
+- Property to Review (1:M)
+- Booking to Payment (1:1)
+---
+
+## 3. Diagram
