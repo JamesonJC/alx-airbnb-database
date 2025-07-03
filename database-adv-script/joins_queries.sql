@@ -1,1 +1,1 @@
-JOIN
+["SELECT", "INNER JOIN", "FROM"]N
