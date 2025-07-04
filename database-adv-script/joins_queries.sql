@@ -1,3 +1,3 @@
 --- ["SELECT", "INNER JOIN", "FROM"]
---- ["LEFT JOIN", "ORDER BY"]
---- ["FULL OUTER JOIN"]
+--- ["FULL OUTER JOIN"]   
+--- ["LEFT JOIN", "ORDER BY"]          
