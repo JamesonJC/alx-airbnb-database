@@ -4,6 +4,9 @@ SELECT last_name, first_name, email
             FROM "Booking" --AS b ---
             INNER JOIN "User" -- AS u ---
             ON "Booking".user_id = "User".user_id);
+
+---- ["CREATE INDEX", "ON"]
+--- ["EXPLAIN ANALYZE"]
 --- ["SELECT", ("INNER JOIN",) "FROM"]
 --- ["FULL OUTER JOIN"]   
 --- ["LEFT JOIN", "ORDER BY"]          
