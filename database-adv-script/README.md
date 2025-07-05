@@ -1,1 +1,2 @@
 joins_queries
+aggregations_and_window_functions
